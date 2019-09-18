@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/readium/r2-navigator-swift.git", :branch => "develop" }
   s.source_files  = "r2-navigator-swift/**/*.{m,h,swift}"
   s.exclude_files = ["**/Info*.plist","**/Carthage/*"]
-  s.xcconfig            = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/R2Navigator/**"' ,
+  s.xcconfig            = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/r2-navigator-swift/**"' ,
   'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2'}
   s.swift_version  = "4.2"
 
